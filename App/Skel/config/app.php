@@ -53,8 +53,8 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
-    'urlRealtime' => env('APP_URL_REALTIME', 'https://developer.melisa.mx:8044/socket.io/socket.io.js'),
-    'urlLiveReload' => env('APP_URL_LIVERELOAD', 'https://developer.melisa.mx:9000/livereload.js'),
+    'urlRealtime' => env('APP_URL_REALTIME', 'url.realtime'),
+    'urlLiveReload' => env('APP_URL_LIVERELOAD', 'url.livereload'),
 
     /*
     |--------------------------------------------------------------------------
