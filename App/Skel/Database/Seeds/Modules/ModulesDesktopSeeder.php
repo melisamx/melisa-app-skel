@@ -13,7 +13,7 @@ class ModulesDesktopSeeder extends Seeder
     public function run()
     {
         
-        //$this->call(Phone\::class);
+        //$this->call(Desktop\::class);
         
     }
     
