@@ -1,4 +1,4 @@
-<?php namespace App\Dummy\tests;
+<?php namespace App\Skel\tests;
 
 abstract class TestCase extends \Illuminate\Foundation\Testing\TestCase
 {
@@ -17,7 +17,7 @@ abstract class TestCase extends \Illuminate\Foundation\Testing\TestCase
     public function createApplication()
     {
         
-        $app = require __DIR__.'/../../../bootstrap/dummy.php';
+        $app = require __DIR__.'/../../../bootstrap/skel.php';
         
         $app->make(\Illuminate\Contracts\Console\Kernel::class)->bootstrap();
         $this->baseUrl = env('APP_URL');
