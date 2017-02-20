@@ -2,6 +2,11 @@
 
 use Illuminate\Database\Seeder;
 
+/**
+ * 
+ *
+ * @author Luis Josafat Heredia Contreras
+ */
 class DatabaseSeeder extends Seeder
 {
     
@@ -11,6 +16,7 @@ class DatabaseSeeder extends Seeder
         $this->call(ApplicationSeeder::class);
         $this->call(OptionsSeeder::class);
         $this->call(ModulesSeeder::class);
+        $this->call(DataSeeder::class);
         
     }
     

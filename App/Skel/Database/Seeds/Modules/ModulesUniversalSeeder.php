@@ -7,13 +7,13 @@ use Illuminate\Database\Seeder;
  *
  * @author Luis Josafat Heredia Contreras
  */
-class ModulesDesktopSeeder extends Seeder
+class ModulesUniversalSeeder extends Seeder
 {
     
     public function run()
     {
         
-        //$this->call(Desktop\::class);
+        //$this->call(Universal\Seeder::class);
         
     }
     

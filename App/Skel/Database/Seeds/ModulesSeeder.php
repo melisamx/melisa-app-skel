@@ -2,6 +2,11 @@
 
 use Illuminate\Database\Seeder;
 
+/**
+ * 
+ *
+ * @author Luis Josafat Heredia Contreras
+ */
 class ModulesSeeder extends Seeder
 {
     
@@ -10,6 +15,7 @@ class ModulesSeeder extends Seeder
         
         $this->call(Modules\ModulesDesktopSeeder::class);
         $this->call(Modules\ModulesPhoneSeeder::class);
+        $this->call(Modules\ModulesUniversalSeeder::class);
         
     }
     
