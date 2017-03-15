@@ -17,7 +17,8 @@ class ApplicationSeeder extends InstallSeeder
             'name'=>'Skel',
             'description'=>'Application Skel',
             'nameSpace'=>'Melisa.skel',
-            'typeSecurity'=>'art'
+            'typeSecurity'=>'art',
+            'version'=>'1.0.0'
         ]);
         
     }
