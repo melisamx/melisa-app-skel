@@ -21,6 +21,18 @@ module.exports = function(grunt) {
                 }
             }
         },
+        sass: {
+            options: {
+                style: 'compressed',
+                noCache: true,
+                sourcemap: 'none'
+            },
+            all: {
+                files: {
+                    '<%= main.output %>css/style.css': '<%= main.src %>sass/materialize.scss'
+                }
+            }
+        },
         watch: {
             files: ['<%= main.src %>less/**/*.less'],
             tasks: ['less']
@@ -29,6 +41,7 @@ module.exports = function(grunt) {
     
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.registerTask('default', [
         'watch'
     ]);
