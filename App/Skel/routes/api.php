@@ -6,6 +6,4 @@ Route::group([
     'namespace' =>'v1'
 ], function() {
     
-    
-    
 });
