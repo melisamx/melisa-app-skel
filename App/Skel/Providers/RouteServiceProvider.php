@@ -1,4 +1,6 @@
-<?php namespace App\Skel\Providers;
+<?php
+
+namespace App\Skel\Providers;
 
 use Melisa\Laravel\Providers\RouteServiceProvider as RouteService;
 

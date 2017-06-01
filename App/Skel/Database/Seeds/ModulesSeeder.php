@@ -1,4 +1,6 @@
-<?php namespace App\Skel\Database\Seeds;
+<?php
+
+namespace App\Skel\Database\Seeds;
 
 use Illuminate\Database\Seeder;
 

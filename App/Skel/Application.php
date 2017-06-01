@@ -1,4 +1,6 @@
-<?php namespace App\Skel;
+<?php
+
+namespace App\Skel;
 
 use Melisa\Laravel\ApplicationBase;
 
