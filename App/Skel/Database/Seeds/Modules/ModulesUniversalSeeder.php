@@ -2,21 +2,19 @@
 
 namespace App\Skel\Database\Seeds\Modules;
 
-use Illuminate\Database\Seeder;
+use Melisa\Laravel\Database\InstallSeeder;
 
 /**
  * 
  *
  * @author Luis Josafat Heredia Contreras
  */
-class ModulesUniversalSeeder extends Seeder
+class ModulesUniversalSeeder extends InstallSeeder
 {
     
     public function run()
-    {
-        
-        //$this->call(Universal\Seeder::class);
-        
+    {        
+        //$this->call(Universal\Seeder::class);        
     }
     
 }
