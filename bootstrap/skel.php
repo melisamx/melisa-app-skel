@@ -11,15 +11,9 @@
 |
 */
 
-require_once __DIR__ . '/../App/Skel/Application.php';
+use App\Skel\Application;
 
-$app = new App\Skel\Application(
-    [
-        'base'=>  realpath(__DIR__ . '/../App/Skel'),
-        'storage'=> realpath(__DIR__ . '/../App/Skel/storage'),
-        'storageSession'=>realpath(__DIR__ . '/../storage/framework/sessions'),
-    ]
-);
+$app = new App\Skel\Application(realpath(__DIR__ . '/../App/People'));
 
 /*
 |--------------------------------------------------------------------------
